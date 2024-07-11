@@ -1,0 +1,12 @@
+{
+  "Sepolia": {
+    "RPC_URL": "https://1rpc.io/sepolia",
+    "CHAIN_ID": "11155111",
+    "WETH_ADDRESS": "0xf531B8F309Be94191af87605CfBf600D71C2cFe0"
+  },
+  "Units Testnet": {
+    "RPC_URL": "https://rpc-testnet.unit0.dev",
+    "CHAIN_ID": "88817",
+    "WETH_ADDRESS": "0x5C951a73aaC4C5b71FD7245E64cD68548b48F4A8"
+  }
+}
