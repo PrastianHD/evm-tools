@@ -1,5 +1,9 @@
 # TOOLS FOR EVM
-![logo](./utils/evm.png)
+
+<div style="text-align: center;">
+    <img src="./utils/evm.png" alt="logo">
+</div>
+
 
 ## Preparation
 Make sure you have NodeJS installed. If not, you can install it [install here](https://nodejs.org/en/download/package-manager/current)
