@@ -2,7 +2,6 @@
   "name": "evm-tools",
   "version": "1.2.3",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -11,12 +10,13 @@
   "author": "Prastian Hidayat",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0",
+    "chalk": "^4.1.2",
     "dotenv": "^16.4.5",
     "ethers": "^6.13.1",
     "fs": "^0.0.1-security",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
   },
-  "devDependencies": {},
-  "description": "Bot Tools Interaction for EVM Network"
+  "description": "Bot Tools Interaction for EVM Network",
+  "devDependencies": {}
 }

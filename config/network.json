@@ -1,12 +1,24 @@
 {
   "Sepolia": {
-    "RPC_URL": "https://1rpc.io/sepolia",
+    "RPC_URL": "https://11155111.rpc.thirdweb.com",
     "CHAIN_ID": "11155111",
-    "WETH_ADDRESS": "0xf531B8F309Be94191af87605CfBf600D71C2cFe0"
+    "WETH_ADDRESS": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9"
+  },
+  "Base Sepolia": {
+    "RPC_URL": "https://sepolia.base.org/",
+    "CHAIN_ID": "84532"
+  },
+  "Base Mainnet": {
+    "RPC_URL": "https://mainnet.base.org/",
+    "CHAIN_ID": "8453"
   },
   "Units Testnet": {
     "RPC_URL": "https://rpc-testnet.unit0.dev",
-    "CHAIN_ID": "88817",
-    "WETH_ADDRESS": "0x5C951a73aaC4C5b71FD7245E64cD68548b48F4A8"
+    "CHAIN_ID": "88817"
+  },
+  "Celo Dango Testnet": {
+    "RPC_URL": "https://forno.dango.celo-testnet.org/",
+    "CHAIN_ID": "44787",
+    "WETH_ADDRESS": "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8"
   }
 }

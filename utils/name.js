@@ -1,7 +1,7 @@
 // name.js
-import chalk from 'chalk';
+const chalk = require('chalk')
 
-export function printName() {
+function printName() {
     console.log(chalk.blueBright(`
     +=================================================+                                 
     =           ${chalk.yellowBright('------- EVM TOOLS -------')}             =
@@ -16,7 +16,7 @@ export function printName() {
     `));
 }
 
-export function printMenu1() {
+function printMenu1() {
     console.log(chalk.blueBright(`
     +=================================================+                                 
     =   ${chalk.yellowBright('----- Tools Send ETH To Random Address -----')}  =
@@ -27,7 +27,7 @@ export function printMenu1() {
     `));
 }
 
-export function printMenu2() {
+function printMenu2() {
     console.log(chalk.blueBright(`
     +=================================================+                                 
     =    ${chalk.yellowBright('----- Tools Intract Contract WETH -----')}      =
@@ -40,7 +40,7 @@ export function printMenu2() {
     `));
 }
 
-export function printMenu3() {
+function printMenu3() {
     console.log(chalk.blueBright(`
     +=================================================+                                 
     =    ${chalk.yellowBright('----- Tools Deploy Smart Contract -----')}      =
@@ -49,3 +49,4 @@ export function printMenu3() {
     +=================================================+
     `));
 }
+module.exports = { printName, printMenu1, printMenu2, printMenu3 };

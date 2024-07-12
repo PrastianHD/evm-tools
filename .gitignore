@@ -1,4 +1,8 @@
 node_modules/
-.env
 
 package-lock.json
+index_asli.js
+script/Menu1.js
+script/Menu2.js
+script/Menu3.js
+
